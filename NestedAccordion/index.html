@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayu Academy</title>
+    <meta name="description" content="Blueprint: Nested Accordion" />
+    <meta name="keywords" content="nested, accordion, simple, vertical, web development, css3, javascript" />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="clearfix">
+            <div class="cbp-af-header">
+   				<div class="cbp-af-inner">
+        			<h1>Mayu Academy</h1>
+        			 <div class="student-images">
+                		<img src="img/travis.jpg" />
+                		<img src="img/lynae.PNG" />
+            		</div>
+    			</div>
+			</div>
+        </header>
+            <div class="header-quote">
+                <p>The best model benefiting developers, teachers, and employees alike.</P>
+                <p>"Code is the new resume" -Jim Zemlin, The Linux Foundation</p>
+            </div>
+        <div class="main">
+            <ul id="cbp-ntaccordion" class="cbp-ntaccordion">
+                <li>
+                    <h3 class="cbp-nttrigger">Our Current Environment</h3>
+                    <div class="cbp-ntcontent">
+                        <p>xyz</p>
+                        <ul class="cbp-ntsubaccordion">
+                            <li>
+                                <h4 class="cbp-nttrigger">Comp Sci Degree</h4>
+                                <div class="cbp-ntcontent">
+                                    <p>One of the biggest problems with getting a formal education for web design and development is that the industry changes too quickly. New technology and new trends mean that by the time you are done with your education much of what you have learned will already be obsolete or at least somewhat dated.</p>
+                                    <h5>Quote</h5>
+                                    <p>"It's nice you have a Comp Sci degree... it's nice that you are Oracle Certified... but based on your lack of experience, I cannot say you are the right fit for this position." -interviewer,
+                                        <a href="http://hwcdn.libsyn.com/p/e/5/a/e5a92c4229e70eed/18b-Education.mp3?c_id=3423032&expiration=1400260905&hwt=e6b826aa96e0ad80310387085bff40e4">The Developer's Life Education Podcast</a>
+                                    </p>
+                                    <h5>Numbers</h5>
+                                    <p>1 in 11 recent CS graduates is unemployed</p>
+                                </div>
+                            </li>
+                            <li>
+                                <h4 class="cbp-nttrigger">Boot Camps</h4>
+                                <div class="cbp-ntcontent">
+                                    <p>In these programs you work in pair programming, on several exercises, and have can sit through local guest lectures-- but what about the staff running your organization? How many years experience does your instructor have? What projects or companies have they contributed to?</p>
+                                    <h5>Quote</h5>
+                                    <p>"Programming boot camps can't serve as a substitute for real-world experience," says
+                                        <a href="http://www.javaworld.com/article/2096390/java-android-developer/boom-or-bust-the-lowdown-on-code-academies.html">Jon LeBlanc</a>, head of developer evangelism at PayPal</p>
+                                    <h5>Numbers</h5>
+                                    <p>$10,000 - $20,000 average upfront tuition</p>
+                                </div>
+                            </li>
+                            <li>
+                                <h4 class="cbp-nttrigger">Self Taught</h4>
+                                <div class="cbp-ntcontent">
+                                    <p>Taking this route has major financial advantages compared to spending tens of thousands of dollars on a formal education or bootcamp program. You can also specify your curriculum and learn exactly what you want to learn. On the downside, without a mentor you are likely to learn out-of-date technologies or methods. This often results in educational gaps and obvious lack of understanding coding best practices.</p>
+                                    <h5>Quote</h5>
+                                    <p>"Being self-taught has been a real hindrance in finding a job," -
+                                        <a href="http://blog.iqandreas.com/monologues/the-problems-with-being-self-taught/"> David S. Gallant</a>, self-taught web developer</p>
+                                    <h5>Numbers</h5>
+                                    <p>The majority of developers are self taught.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <h3 class="cbp-nttrigger">Apprenticeship Program</h3>
+                    <div class="cbp-ntcontent">
+                        <p>With "code is the new resume" at the heart of Mayu Academy's Apprentice Program, we constantly seek the best strategies to show your real world experience.</p>
+                        <ul class="cbp-ntsubaccordion">
+                            <li>
+                                <h4 class="cbp-nttrigger">Basic Benefits</h4>
+                                <div class="cbp-ntcontent">
+                                    <p>Flexibile learning environment</p>
+                                    <p>One-on-one teaching</p>
+                                    <p>Pair programming</p>
+                                    <p>Real world projects</p>
+                                    <p>Portfolio guidance</p>
+                                    <p>Major network connections</p>
+                                </div>
+                            </li>
+                            <li>
+                                <h4 class="cbp-nttrigger">We Beat the Alternatives</h4>
+                                <div class="cbp-ntcontent">
+                                    <p>Relevant and timely material</p>
+                                    <p>Documented experience</p>
+                                    <p>Industry-leading mentors</p>
+                                    <p>Get paid as you work on contracts</p>
+                                    <p>No major *upfront* tuition</p>
+                                    <p>Coding best practices</p>
+                                    <p>Fundamental professionalism in your code</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/jquery.cbpNTAccordion.min.js"></script>
+    <script>
+    $(function() {
+        /*
+				- how to call the plugin:
+				$( selector ).cbpNTAccordion( [options] );
+				- destroy:
+				$( selector ).cbpNTAccordion( 'destroy' );
+				*/
+
+        $('#cbp-ntaccordion').cbpNTAccordion();
+
+    });
+    </script>
+</body>
+
+</html>
